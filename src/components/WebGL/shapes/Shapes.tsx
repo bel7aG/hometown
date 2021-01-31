@@ -66,11 +66,7 @@ const Shapes: FC = () => {
           </Suspense>
         </group>
       </animated.group>
-      <animated.group
-        onPointerUp={() => alert('/register')}
-        scale={registerScale as any}
-        ref={textRef}
-        position={registerPosition as any}>
+      <animated.group scale={registerScale as any} ref={textRef} position={registerPosition as any}>
         <Suspense fallback={null}>
           <Text position={[0, 0, 0]} children="CORONA" color="#ad4a4a" />
         </Suspense>
