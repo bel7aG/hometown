@@ -1,0 +1,1 @@
+export { MUITheme } from './MUITheme'

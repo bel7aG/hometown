@@ -1,0 +1,1 @@
+export { FadeMagicTween } from './FadeMagicTween'

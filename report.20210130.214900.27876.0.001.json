@@ -1,0 +1,554 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210130.214900.27876.0.001.json",
+    "dumpEventTime": "2021-01-30T21:49:00Z",
+    "dumpEventTimeStamp": "1612039740387",
+    "processId": 27876,
+    "cwd": "D:\\challenges\\home.ht\\home-frontend",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\challenges\\home.ht\\home-frontend\\node_modules\\.bin\\\\..\\next\\dist\\bin\\next",
+      "dev",
+      "-p",
+      "5000"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 35259515,
+        "nice": 0,
+        "sys": 22651500,
+        "idle": 452146531,
+        "irq": 5300750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 19350343,
+        "nice": 0,
+        "sys": 8694156,
+        "idle": 482012843,
+        "irq": 303656
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 82520484,
+        "nice": 0,
+        "sys": 20457843,
+        "idle": 407079015,
+        "irq": 463453
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 18724125,
+        "nice": 0,
+        "sys": 8133296,
+        "idle": 483199921,
+        "irq": 102906
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 49124140,
+        "nice": 0,
+        "sys": 18178156,
+        "idle": 442755046,
+        "irq": 363578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 16235453,
+        "nice": 0,
+        "sys": 6726781,
+        "idle": 487095109,
+        "irq": 103937
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 39186390,
+        "nice": 0,
+        "sys": 13653750,
+        "idle": 457217203,
+        "irq": 264140
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 22749359,
+        "nice": 0,
+        "sys": 7178093,
+        "idle": 480129890,
+        "irq": 142843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 30967203,
+        "nice": 0,
+        "sys": 11086671,
+        "idle": 468003468,
+        "irq": 287828
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 18695046,
+        "nice": 0,
+        "sys": 6702687,
+        "idle": 484659593,
+        "irq": 156515
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 34664640,
+        "nice": 0,
+        "sys": 12841140,
+        "idle": 462551546,
+        "irq": 407234
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 28452734,
+        "nice": 0,
+        "sys": 8836500,
+        "idle": 472768093,
+        "irq": 167375
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "WiFi",
+        "internal": false,
+        "mac": "48:a4:72:5e:6e:56",
+        "address": "fe80::9dbf:d01:7ecc:b3d8",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "WiFi",
+        "internal": false,
+        "mac": "48:a4:72:5e:6e:56",
+        "address": "192.168.50.66",
+        "netmask": "255.255.248.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-M79OPNIF"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7f8e21389",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7f8e257cc",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28348"
+    },
+    {
+      "pc": "0x00007ff7f8e24778",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24168"
+    },
+    {
+      "pc": "0x00007ff7f8f1332b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7f9716f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7f96fef91",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7f95cc85c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7f95d7c00",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7f95d4734",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7f95c9fc3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7f95c8794",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff7f95e9a65",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff7f9356239",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff7f9b42c6d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x000003c574f8358f",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2157977600,
+    "totalCommittedMemory": 2157977600,
+    "usedMemory": 2139310256,
+    "availableMemory": 50180688,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 10485760,
+        "committedMemory": 10485760,
+        "capacity": 5237440,
+        "used": 443392,
+        "available": 4794048
+      },
+      "old_space": {
+        "memorySize": 713666560,
+        "committedMemory": 713666560,
+        "capacity": 707947456,
+        "used": 707865528,
+        "available": 81928
+      },
+      "code_space": {
+        "memorySize": 2523136,
+        "committedMemory": 2523136,
+        "capacity": 2105472,
+        "used": 2105472,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6557696,
+        "committedMemory": 6557696,
+        "capacity": 5303040,
+        "used": 5303040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1423859712,
+        "committedMemory": 1423859712,
+        "capacity": 1423010128,
+        "used": 1423010128,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 5237440,
+        "used": 0,
+        "available": 5237440
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 809.796,
+    "kernelCpuSeconds": 60.187,
+    "cpuConsumptionPercent": 56.7134,
+    "maxRss": 3182149632,
+    "pageFaults": {
+      "IORequired": 16219584,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 76948,
+      "writes": 1179637
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    " C:\\Program Files\\Oracle\\VirtualBox": " C:\\Program Files\\Oracle\\VirtualBox",
+    "": "C:=C:\\",
+    "": "D:=D:\\challenges\\home.ht\\home-frontend",
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "c:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk",
+    "ANDROID_SDK_HOME": "c:\\Users\\bel7a\\",
+    "APPDATA": "C:\\Users\\bel7a\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPOSE_CONVERT_WINDOWS_PATHS": "true",
+    "COMPUTERNAME": "LAPTOP-M79OPNIF",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DOCKER_CERT_PATH": "C:\\Users\\bel7a\\.docker\\machine\\machines\\default",
+    "DOCKER_HOST": "tcp://192.168.99.100:2376",
+    "DOCKER_MACHINE_NAME": "default",
+    "DOCKER_TLS_VERIFY": "1",
+    "DOCKER_TOOLBOX_INSTALL_PATH": "C:\\Program Files\\Docker Toolbox",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GameFirst": "C:\\Program Files (x86)\\ASUS\\GameFirst\\",
+    "HOME": "C:\\Users\\bel7a",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\bel7a",
+    "HOSTNAME": "LAPTOP-M79OPNIF",
+    "INFOPATH": "/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "INIT_CWD": "D:\\challenges\\home.ht\\home-frontend",
+    "JAVA_HOME": "D:\\Programs\\Android\\jdk",
+    "LANG": "en_GB.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\bel7a\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-M79OPNIF",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MongoDB": "C:\\Program Files\\MongoDB\\Server\\4.2\\bin",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NO_PROXY": "192.168.99.100",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"develop\"],\"original\":[\"develop\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_engines": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.13.0 npm/? node/v12.13.0 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "develop",
+    "npm_lifecycle_script": "next dev -p 5000",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "bel7aG",
+    "npm_package_dependencies_drei": "^2.2.21",
+    "npm_package_dependencies_final_form": "^4.20.1",
+    "npm_package_dependencies_glslify": "^7.1.1",
+    "npm_package_dependencies_graphql": "15.1.0",
+    "npm_package_dependencies_gsap": "^3.6.0",
+    "npm_package_dependencies_lerp": "^1.0.3",
+    "npm_package_dependencies_next": "^10.0.5",
+    "npm_package_dependencies_next_compose_plugins": "^2.2.1",
+    "npm_package_dependencies_next_images": "^1.6.2",
+    "npm_package_dependencies_react": "^17.0.1",
+    "npm_package_dependencies_react_dom": "^17.0.1",
+    "npm_package_dependencies_react_final_form": "^6.5.2",
+    "npm_package_dependencies_react_spring": "^8.0.27",
+    "npm_package_dependencies_react_three_fiber": "^5.3.18",
+    "npm_package_dependencies_styled_components": "^5.2.1",
+    "npm_package_dependencies_three": "^0.125.2",
+    "npm_package_dependencies__apollo_client": "^3.3.6",
+    "npm_package_dependencies__material_ui_core": "^4.11.2",
+    "npm_package_dependencies__material_ui_icons": "^4.11.2",
+    "npm_package_dependencies__next_bundle_analyzer": "^10.0.5",
+    "npm_package_dependencies__react_spring_three": "^9.0.0-rc.3",
+    "npm_package_dependencies__react_three_drei": "^3.0.0",
+    "npm_package_description": "<p>The goal is to create responsive todo app (Styled components).</p>",
+    "npm_package_devDependencies_babel_plugin_graphql_tag": "^3.1.0",
+    "npm_package_devDependencies_babel_plugin_styled_components": "^1.12.0",
+    "npm_package_devDependencies_babel_preset_env": "1.7.0",
+    "npm_package_devDependencies_glslify_loader": "^2.0.0",
+    "npm_package_devDependencies_glsl_noise": "^0.0.0",
+    "npm_package_devDependencies_glsl_voronoi_noise": "^1.2.2",
+    "npm_package_devDependencies_next_transpile_modules": "^6.1.0",
+    "npm_package_devDependencies_raw_loader": "^4.0.2",
+    "npm_package_devDependencies_typescript": "4.0.3",
+    "npm_package_devDependencies_webpack_glsl_loader": "^1.0.1",
+    "npm_package_devDependencies__types_node": "14.0.11",
+    "npm_package_devDependencies__types_react": "16.9.35",
+    "npm_package_devDependencies__types_react_dom": "16.9.8",
+    "npm_package_devDependencies__types_styled_components": "^5.1.7",
+    "npm_package_license": "MIT",
+    "npm_package_main": "index.js",
+    "npm_package_name": "home.ht-frontend",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_resolutions_webpack": "^5.11.0",
+    "npm_package_scripts_build": "next build",
+    "npm_package_scripts_develop": "next dev -p 5000",
+    "npm_package_scripts_start": "next start",
+    "npm_package_version": "1.0.0",
+    "NUMBER_OF_PROCESSORS": "12",
+    "NVM_HOME": "C:\\Users\\bel7a\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OLDPWD": "/c/Users/bel7a",
+    "OneDrive": "C:\\Users\\bel7a\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\bel7a\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\bel7a\\bin;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;D:\\Programs\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;D:\\Programs\\Android\\jdk\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;D:\\Programs\\Symfony;C:\\PHP7;C:\\Program Files\\PuTTY;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Users\\bel7a\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0;%SYSTEMROOT%\\System32\\OpenSSH;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Python\\Python36\\Scripts;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Python\\Python36;C:\\Users\\bel7a\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\bel7a\\AppData\\Roaming\\npm;C:\\Users\\bel7a\\AppData\\Local\\Yarn\\bin;C:\\Users\\bel7a\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\platform-tools;D:\\Programs\\heroku\\bin;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\bel7a\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\bel7a\\.dotnet\\tools;C:\\MinGW\\bin;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\bel7a\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Docker Toolbox;C:\\Users\\bel7a\\AppData\\Local\\hyper\\app-3.0.2\\resources\\bin;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\bel7a\\AppData\\Local\\Temp\\yarn--1612038206251-0.5401007559718991;D:\\challenges\\home.ht\\home-frontend\\node_modules\\.bin;C:\\Users\\bel7a\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;D:\\challenges\\home.ht\\home-frontend\\node_modules\\.bin;C:\\Users\\bel7a\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\bel7a\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\bel7a\\bin;C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;D:\\Programs\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\Yarn\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;D:\\Programs\\Android\\jdk\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319;D:\\Programs\\Symfony;C:\\PHP7;C:\\Program Files\\PuTTY;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\130\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\140\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\140\\DTS\\Binn;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn;C:\\Users\\bel7a\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0;%SYSTEMROOT%\\System32\\OpenSSH;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Python\\Python36\\Scripts;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Python\\Python36;C:\\Users\\bel7a\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\bel7a\\AppData\\Roaming\\npm;C:\\Users\\bel7a\\AppData\\Local\\Yarn\\bin;C:\\Users\\bel7a\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\platform-tools;D:\\Programs\\heroku\\bin;C:\\Users\\bel7a\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\bel7a\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\bel7a\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\bel7a\\.dotnet\\tools;C:\\MinGW\\bin;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\bel7a\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Docker Toolbox;C:\\Users\\bel7a\\AppData\\Local\\hyper\\app-3.0.2\\resources\\bin;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\140\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/d/challenges/home.ht/home-frontend",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\bel7a\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\bel7a\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\bel7a\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-M79OPNIF",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-M79OPNIF",
+    "USERNAME": "bel7a",
+    "USERPROFILE": "C:\\Users\\bel7a",
+    "WINDIR": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}

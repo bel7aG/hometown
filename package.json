@@ -1,0 +1,59 @@
+{
+  "name": "home.ht-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bel7aG",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "next dev -p 5000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@next/bundle-analyzer": "^10.0.5",
+    "@react-spring/three": "^9.0.0-rc.3",
+    "@react-three/drei": "^3.0.0",
+    "@types/d3-ease": "^2.0.0",
+    "d3-ease": "^2.0.0",
+    "drei": "^2.2.21",
+    "final-form": "^4.20.1",
+    "glslify": "^7.1.1",
+    "graphql": "15.1.0",
+    "gsap": "^3.6.0",
+    "lerp": "^1.0.3",
+    "next": "^10.0.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.6.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-final-form": "^6.5.2",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^5.3.18",
+    "styled-components": "^5.2.1",
+    "three": "^0.125.2"
+  },
+  "devDependencies": {
+    "@types/node": "14.0.11",
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8",
+    "@types/styled-components": "^5.1.7",
+    "@types/three": "^0.103.2",
+    "babel-plugin-graphql-tag": "^3.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "babel-preset-env": "1.7.0",
+    "glsl-noise": "^0.0.0",
+    "glsl-voronoi-noise": "^1.2.2",
+    "glslify-loader": "^2.0.0",
+    "next-transpile-modules": "^6.1.0",
+    "raw-loader": "^4.0.2",
+    "typescript": "4.0.3",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "resolutions": {
+    "webpack": "^5.11.0"
+  }
+}
